@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url(images/sites.jpg);
+    color: #f10303;
+}
+
+header {
+    background-color: #333;
+    color: #f50202;
+    padding: 20px;
+    text-align: center;
+    background-image: url(images/sites.jpg);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(images/sites.jpg);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #f50808;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+    color: #f10303;
+}
+
+section {
+    padding: 20px;
+}
+
+#about, #screenshots, #videos, #download, #community {
+    background-color: #f7f2f2;
+    background-image: url(images/sites.jpg);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.screenshot {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer {
+    background-color: #030202;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
